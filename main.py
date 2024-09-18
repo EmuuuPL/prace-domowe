@@ -7,8 +7,6 @@ if wybor == '1':
     b = float(input())
     c = float(input())
     
-
-
     if a + b > c and a + c > b and c + b > a:
         print("jest to trojkat")
         if a**2 + b**2 == c**2 or c**2 + b**2 == a**2 or a**2 + c**2 == b**2:
@@ -36,7 +34,7 @@ elif wybor == '2':
     c = float(input())
     d = float(input())
     
-    if ((a > 0) + (b > 0) + (c > 0) + (d > 0)):
+    if a > 0 and b > 0 and c > 0 and d > 0:
         print("to jest kwadrat lub prostokat albo inny czworokat")
         if a == b == c == d:
             print("to jest kwadrat")
